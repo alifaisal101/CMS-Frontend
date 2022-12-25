@@ -1,12 +1,17 @@
 <template>
   <v-app id="MainApp">
+      <NavMenuVue />
       <router-view />
   </v-app>
 </template>
 
 <script>
-export default {
+import NavMenuVue from '@/globals/NavMenu.vue';
 
+export default {
+  components:{
+    NavMenuVue
+  }
 }
 </script>
 
