@@ -19,8 +19,19 @@ export default defineComponent({
   },
   methods: {
     changeLanguage() {
-      this.$i18n.locale === "ara" ? this.$i18n.locale = "en" : this.$i18n.locale = "ara";
+      this.$i18n.locale === "ja" ? this.$i18n.locale = "en" : this.$i18n.locale = "ja";
     }
   }
 })
 </script>
+
+<i18n>
+  {
+    "en": {
+      "hello": "hello world!"
+    },
+    "ja": {
+      "hello": "こんにちは、世界！"
+    }
+  }
+  </i18n>
