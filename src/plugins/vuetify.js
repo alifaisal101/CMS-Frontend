@@ -14,4 +14,8 @@ export default createVuetify({
     }
   },
   blueprint: md3,
+  locale: {
+    locale: 'zhHans',
+    fallback: 'sv',
+  }
 })
