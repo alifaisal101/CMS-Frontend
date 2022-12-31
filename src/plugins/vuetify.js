@@ -1,6 +1,6 @@
 import '@mdi/font/css/materialdesignicons.css'
 import 'vuetify/styles'
-import { md3 } from 'vuetify/blueprints'
+import { md2 } from 'vuetify/blueprints'
 
 import { createVuetify } from 'vuetify'
 
@@ -13,9 +13,5 @@ export default createVuetify({
       ...themesDb
     }
   },
-  blueprint: md3,
-  locale: {
-    locale: 'zhHans',
-    fallback: 'sv',
-  }
+  blueprint: md2,
 })
